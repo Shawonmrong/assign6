@@ -1,0 +1,561 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*header css*/
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-bottom: 5px;
+    padding-right: 1px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.naf {
+
+    color: #DD2A25;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin-left: -6px;
+    padding: 15px 0;
+}
+
+
+.header_content h2 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "HelveticaNeue";
+    color: #424242;
+}
+
+
+.header_content p {
+
+    font-family: "HelveticaNeue";
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: #424242;
+
+}
+
+
+.fa-circle {
+
+    margin-top: 19px;
+    font-size: 5px;
+}
+
+.navbar-nav li {
+    padding: 0px 10px;
+}
+
+.navbar-nav a {
+
+    font-weight: bold;
+}
+
+.navbar-nav button {
+
+    color: white;
+    background-color: #DE2B2F;
+    border: 0;
+    width: 173px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*banner area css*/
+.banner_area {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.banner_content {
+    color: white;
+    text-align: center;
+}
+
+.banner_content h4 {
+    font-family: '-HelveticaNeue', sans-serif;
+    font-size: 36px;
+}
+
+.banner_content h2 {
+    font-size: 63px;
+    font-family: '-HelveticaNeue', sans-serif;
+    margin: 20px 0px 20px;
+}
+
+.banner_content p {
+    font-size: 16px;
+}
+
+
+
+.button_center {
+    width: 290px;
+    height: 60px;
+    background-color: #F7CD54;
+    border: 0;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+/*about css*/
+
+.about_us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about_us p {
+    text-align: center;
+    font-size: 20px;
+    color: #424242;
+}
+
+
+.about_us h2 {
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #424242;
+}
+
+.about_us h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #424242;
+    margin-top: 25px;
+
+}
+
+
+.about_us p {
+
+    font-size: 14px;
+    color: #424242;
+}
+
+.about_content {
+    text-align: center;
+}
+
+.about_content::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #424242;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+/*approch css*/
+.approch {
+    height: auto;
+    background-color: #dee2e6;
+    padding-bottom: 30px;
+}
+
+.approch_heading {
+    position: relative;
+    padding: 20px;
+}
+
+.approch_heading h2 {
+    margin-bottom: -0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 2.2;
+    color: inherit;
+
+}
+
+.approch_heading p {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.approch_heading p::before {
+    content: "";
+    position: absolute;
+    background: black;
+    width: 60px;
+    height: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0px;
+}
+
+.approch_item {
+    background-color: #ffffff !important;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .09);
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.approch_text2 h4 {
+    float: right;
+}
+
+.approch_text2 p {
+    float: right;
+}
+
+.approch1_img {}
+
+.approch1_img {
+    position: relative;
+
+}
+
+.icon1_img {
+    position: absolute;
+    top: 73px;
+    left: 288px;
+
+
+}
+
+.approch2_img {
+    position: relative;
+    float: right;
+
+}
+
+.icon2_img {
+    position: absolute;
+    top: 73px;
+    left: -49px;
+
+
+}
+
+
+.approch_content {
+    padding: 66px 0px 0px 45px;
+
+}
+
+.approch_content h4 {}
+
+.approch_content2 {
+    padding: 45px 66px 0px 0px;
+}
+
+.approch_text2 p {
+    float: right;
+    text-align: right;
+    margin-left: 75px;
+}
+
+
+
+
+
+
+
+/*work css*/
+
+
+.work {
+    background: #DE2B24;
+
+
+}
+
+.all {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+.work_main {
+    padding-top: 70px;
+
+    padding-bottom: 50px;
+
+}
+
+.work_main h2 {
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.work_main p {
+    position: relative;
+    color: white;
+}
+
+.work_main p::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.work_content {
+    text-align: center;
+
+    background: #F35E59;
+    height: 100%;
+    color: white;
+    padding: 75px 0px;
+    width: 100%;
+
+
+}
+
+.work_content i {
+    font-size: 30px;
+}
+
+.planing {
+    padding: 0;
+
+
+}
+
+.work_img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+/*submit css*/
+.sub {
+    background: #1287BF;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.sub_main {
+
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.sub_main h4 {
+    color: white;
+    font-family: "HelveticaNeue";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sub_main p {
+    color: white;
+}
+
+.sub_main i {
+
+    font-size: 50px;
+    color: white;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.fa-chevron-circle-down::before {
+    content: "\f13a";
+}
+
+.sub_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-left: -30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sub_form {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 14px;
+    padding-bottom: 20px;
+    background: white;
+}
+
+.iconx {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    color: red;
+    padding: 25px 15px 0px 0px;
+    margin-left: 0px;
+    margin-right: -35px;
+    margin-top: -40px;
+
+}
+
+.sub_form::before {
+    Content: " ";
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom: 25px solid white;
+}
+
+.sub_form p {
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background: white;
+}
+
+.active_form {
+    border: 1px solid #97B9F0;
+}
+
+input {
+    display: block;
+    left: 10px;
+    right: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 45px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #E2E2E2;
+
+
+}
+
+.button_submit {
+    text-transform: uppercase;
+    color: white;
+    background: #DE2B24;
+    margin: 19px 0px 0px;
+}
+
+/*touch css*/
+.touch {
+    height: 400px;
+    background-color: #2A2A2A;
+}
+
+.touch h2 {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+
+.touch_icon_property {
+    color: white;
+    font-size: 25px;
+    padding: 15px 15px;
+    border: 2px solid #515151;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.touch_icon {
+    margin-top: 25px;
+}
+
+.touch_icon a {
+    padding: 0 10px;
+}
+
+.email_t {
+    display: block;
+    background: #515151;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 258px;
+    height: 35px;
+    padding: 15px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #515151;
+}
+
+.touch button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    background-color: #2A2A2A;
+    border: 2px solid #515151;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+/*foooter css*/
+.footer {
+    background-color: #515151;
+    height: 50px;
+}
+
+.footer p {
+    color: white;
+    padding-bottom: 10px;
+
+}
